@@ -6,7 +6,7 @@ console.log(`Name: ${name}`);
 console.log(`Age: ${age}`);
 console.log(`Online: ${isOnline}`);
 
-// *перевірка типів працює так само як і в JS?
+// *перевірка, що TypeScript правильно визначає тип
 console.log(typeof name);
 console.log(typeof age);
 console.log(typeof isOnline);
