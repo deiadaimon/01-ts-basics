@@ -9,3 +9,9 @@ function logStatus(status: "loading" | "success" | "error"): void {
 }
 
 logStatus("loading");
+
+// *перевірка, що TypeScript не дозволяє передати будь-яке інше значення
+logStatus("success");
+logStatus("error");
+logStatus("pending");
+logStatus("whatever");
